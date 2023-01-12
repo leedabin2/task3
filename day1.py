@@ -9,3 +9,12 @@ for countdown in countdown_list:
     print(countdown)
 print(countdown_list[-2])
 print("프로그램 종료")
+
+#교재 dictionary
+subjects = {"의영": "A+",
+             "전산제도": "B+",
+             "유체역학": "A0"
+             }
+student = input("이름 : ")
+subject = "유체역학"
+print(student,"학생의 ",subject,"성적은",subjects["유체역학"],"입니다")
